@@ -1,0 +1,20 @@
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex de03f94..7f4d4ad 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -33,6 +33,7 @@[m [mbld/[m
+ [m
+ # Visual Studio 2015/2017 cache/options directory[m
+ .vs/[m
+[32m+[m[32m.vscode/[m
+ # Uncomment if you have tasks that create the project's static files in wwwroot[m
+ #wwwroot/[m
+ [m
+[1mdiff --git a/obj/Debug/net5.0/netCoreApp1.assets.cache b/obj/Debug/net5.0/netCoreApp1.assets.cache[m
+[1mindex 41de757..122cd1b 100644[m
+Binary files a/obj/Debug/net5.0/netCoreApp1.assets.cache and b/obj/Debug/net5.0/netCoreApp1.assets.cache differ
+[1mdiff --git a/obj/Debug/net5.0/netCoreApp1.csprojAssemblyReference.cache b/obj/Debug/net5.0/netCoreApp1.csprojAssemblyReference.cache[m
+[1mindex 70f99af..7682107 100644[m
+Binary files a/obj/Debug/net5.0/netCoreApp1.csprojAssemblyReference.cache and b/obj/Debug/net5.0/netCoreApp1.csprojAssemblyReference.cache differ
