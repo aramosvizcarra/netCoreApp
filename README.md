@@ -40,6 +40,11 @@ ng new client
 ng serve
 ng add ngx-bootstrap
 
+ng generate <OR> ng g
+ng g -h <HELP>
+ng g c <component_name> --skip-tests
+ng g s <service_name> --skip-tests
+
 +---------------------------+
 | JWT Json Web Tokens       |
 +---------------------------+

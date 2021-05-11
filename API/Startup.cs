@@ -37,10 +37,10 @@ namespace API
 
             services.AddApplicationServices(_config);
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "netCoreApp1", Version = "v1" });
-            });
+            // services.AddSwaggerGen(c =>
+            // {
+            //     c.SwaggerDoc("v1", new OpenApiInfo { Title = "netCoreApp1", Version = "v1" });
+            // });
             services.AddCors(); //order is not important in services
             services.AddIdentityService(_config);
         }
@@ -51,8 +51,8 @@ namespace API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "netCoreApp1 v1"));
+                // app.UseSwagger();
+                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "netCoreApp1 v1"));
             }
 
             app.UseHttpsRedirection();
